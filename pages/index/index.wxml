@@ -11,7 +11,7 @@
     <text class="user-motto" bindtap="bindMessageTap">{{motto}}</text>
     <map></map>
   </view>
-  <view wx:for="{{array}}">
+  <view wx:for="{{array}}" wx:key="message">
     {{index}}: {{item.message}}
   </view>
 </view>

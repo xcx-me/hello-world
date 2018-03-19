@@ -2,8 +2,6 @@
 //获取应用实例
 const app = getApp()
 
-console.log('hello------')
-
 Page({
   data: {
     motto: 'Hello World',
