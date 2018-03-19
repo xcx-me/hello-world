@@ -2,12 +2,19 @@
 //获取应用实例
 const app = getApp()
 
+console.log('hello------')
+
 Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    array: [{
+      message: 'foo',
+    }, {
+      message: 'bar'
+    }]
   },
   //事件处理函数
   bindViewTap: function() {
