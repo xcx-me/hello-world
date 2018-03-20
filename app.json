@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/switch-demo/switch-demo"
+    "pages/switch-demo/switch-demo",
+    "pages/wxs-demo/wxs-demo"
   ],
   "tabBar": {
     "position": "top",
@@ -18,6 +19,10 @@
       {
         "pagePath": "pages/switch-demo/switch-demo",
         "text": "Switch Demo"
+      },
+      {
+        "pagePath": "pages/wxs-demo/wxs-demo",
+        "text": "WXS Demo"
       }
     ]
   },

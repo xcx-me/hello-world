@@ -1,4 +1,4 @@
-// pages/switch-demo.js
+// pages/wxs-demo/wxs-demo.js
 Page({
 
   /**

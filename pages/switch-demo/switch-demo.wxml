@@ -9,6 +9,6 @@
 <button bindtap="addToFront"> Add to the front </button>
 
 <switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}} </switch>
-<button bindtap="addNumberToFront"> Add to the front </button>
+<button bindtap="addNumberToFront"> Add to the front</button>
 
 </view>
