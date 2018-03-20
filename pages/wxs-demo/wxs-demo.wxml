@@ -1,2 +1,19 @@
 <!--pages/wxs-demo/wxs-demo.wxml-->
-<text>pages/wxs-demo/wxs-demo.wxml...</text>
+<wxs module="m1">
+var msg = "hello world";
+
+module.exports.message = msg;
+</wxs>
+
+<wxs src="./hello.wxs" module="hello" />
+
+<view>{{m1.message}}</view>
+
+<view>{{hello.foo}}</view>
+
+<icon type="success" size="100"/>
+<icon type="success_no_circle" size="100"/>
+<icon type="info" size="100"/>
+
+
+

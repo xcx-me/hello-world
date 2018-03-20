@@ -1,4 +1,8 @@
 // pages/wxs-demo/wxs-demo.js
+const ok = require('./ok.js')
+
+console.log('===========>', ok.value)
+
 Page({
 
   /**
